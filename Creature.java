@@ -1,4 +1,4 @@
-
+import java.util.Random;
 /**
  * Abstract class Creature - 
  * The creature is the main class from which all other battling creatures derive.
@@ -7,15 +7,15 @@
  * the creature is alive or dead. The creature is also responsible for calculating
  * damage delivered based on the creature's strength (1 to str) 
  * 
- * @author (your name here)
- * @version (version number or date here)
+ * @author Daisry Joy Ladignon 
+ * @version 11.17.2018
  */
 public abstract class Creature
 {
     private int str;
     private int max_hp;
     private int hp;
-    
+    private Random rand = new Random();
     /**
      * default constructor - this should never actually run
      */
@@ -34,7 +34,8 @@ public abstract class Creature
      * @param hp the health of the creature at the start of the simulation, and the current health levels during battle
      */
     public Creature (int str, int hp) {
-       //implement this
+       this.str = str;
+       this.hp = hp; 
     }
     
     
@@ -43,8 +44,9 @@ public abstract class Creature
      * @return a value between 1 and str to be used to cause damage to another creature
      */
     public int damage(){
-        // implement this
-        return 0;
+        int dmg; 
+        dmg = rand.nextInt((str-1) + 1) + 1; 
+        return dmg;
     }
     
     
@@ -53,8 +55,13 @@ public abstract class Creature
      * @return true when current hit point level is greater than zero
      */
     public boolean isAlive() {
-        //implement this
-        return false; //change this
+        boolean alive = true;
+        if(hp <= 0 ) {
+            alive = false;
+        }else {
+            alive = true;
+        }
+        return alive; 
     }
     
     /**
@@ -62,8 +69,13 @@ public abstract class Creature
      * @return true when current hit point level is less than or equal to zero
      */
     public boolean isDead() {
-        //implement this
-        return false; //change this
+        boolean dead = false; 
+        if(hp <= 0) {
+            dead = true;
+        }else {
+            dead = false;
+        }
+        return dead;
     }
     
     
@@ -73,7 +85,7 @@ public abstract class Creature
      * @param damage value to remove from hit point count
      */
     public void takeDamage(int damage) {
-        // implement this
+        hp -= damage;
     }
     
 }

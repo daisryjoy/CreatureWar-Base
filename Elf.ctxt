@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Elf
+comment0.text=\n\ Another\ subclass\ of\ the\ creature\ type.\ This\ is\ the\ elf\ class.\ \n\n\ @author\ Daisry\ Joy\ Ladignon\n\ @version\ 11.17.2018\n
+comment1.params=
+comment1.target=Elf()
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Elf\n
+comment2.params=
+comment2.target=int\ damage()
+comment2.text=\n\ Override\ creature's\ damage\ method\ to\ allow\ for\ an\ elf\ to\ deal\ a\ magic\ attack\n\ @return\ the\ total\ damage\ to\ be\ dealt\n
+numComments=3

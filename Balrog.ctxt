@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Balrog
+comment0.text=\n\ A\ subtype\ of\ the\ demon\ class.\ Attacks\ twice\ on\ each\ attack\n\n\ @author\ Daisry\ Joy\ Ladignon\n\ @version\ 11.17.2018\n
+comment1.params=
+comment1.target=Balrog()
+comment1.text=\n\ Constructor\ for\ objects\ of\ class\ Cyberdemon\n
+comment2.params=
+comment2.target=int\ damage()
+comment2.text=\n\ To\ achieve\ the\ double\ attack,\ we\ call\ the\ Demon's\ damage\ method\ twice\ to\ ensure\n\ two\ seperate\ damage\ values,\ then\ combine\ the\ attacks\ to\ be\ measured\ easier\n\ @return\ the\ total\ damage\ to\ be\ dealt\n
+numComments=3

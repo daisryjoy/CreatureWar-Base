@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=Creature
-comment0.text=\n\ Abstract\ class\ Creature\ -\ \n\ The\ creature\ is\ the\ main\ class\ from\ which\ all\ other\ battling\ creatures\ derive.\n\ It\ is\ the\ creature's\ job\ to\ maintain\ current\ health\ values\ in\ response\ to\ \n\ requests\ to\ takeDamage.\ It\ also\ must\ report\ if\n\ the\ creature\ is\ alive\ or\ dead.\ The\ creature\ is\ also\ responsible\ for\ calculating\n\ damage\ delivered\ based\ on\ the\ creature's\ strength\ (1\ to\ str)\ \n\ \n\ @author\ (your\ name\ here)\n\ @version\ (version\ number\ or\ date\ here)\n
+comment0.text=\n\ Abstract\ class\ Creature\ -\ \n\ The\ creature\ is\ the\ main\ class\ from\ which\ all\ other\ battling\ creatures\ derive.\n\ It\ is\ the\ creature's\ job\ to\ maintain\ current\ health\ values\ in\ response\ to\ \n\ requests\ to\ takeDamage.\ It\ also\ must\ report\ if\n\ the\ creature\ is\ alive\ or\ dead.\ The\ creature\ is\ also\ responsible\ for\ calculating\n\ damage\ delivered\ based\ on\ the\ creature's\ strength\ (1\ to\ str)\ \n\ \n\ @author\ Daisry\ Joy\ Ladignon\ \n\ @version\ 11.17.2018\n
 comment1.params=
 comment1.target=Creature()
 comment1.text=\n\ default\ constructor\ -\ this\ should\ never\ actually\ run\n
