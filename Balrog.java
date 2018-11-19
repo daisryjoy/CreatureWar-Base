@@ -29,7 +29,7 @@ public class Balrog extends Demon
      * @return the total damage to be dealt
      */
     public int damage(){
-        int deal = super.damage()+ super.damage();
-        return deal;
+        int dmg = super.damage()+ super.damage();
+        return dmg;
     }
 }

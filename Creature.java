@@ -88,4 +88,13 @@ public abstract class Creature
         hp -= damage;
     }
     
+    
+    /**
+     * This method will be used to return the current hp of a creature.
+     * It will be used in the war class to help determine which side is winning or losing. 
+     */
+    public int showHealth(){
+        return hp;
+    }
+    
 }

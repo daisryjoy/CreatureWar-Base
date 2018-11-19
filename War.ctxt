@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=War
+comment0.text=\n\ Create\ the\ armies\ and\ simulate\ the\ battle\n\n\ @author\ Daisry\ Joy\ Ladignon\n\ @version\ 11.17.2018\n
+comment1.params=
+comment1.target=War()
+comment1.text=\n\ Create\ 50\ creatures\ per\ army.\ Randomizes\ a\ number\ to\ choose\ from\ each\ creature\ per\ side.\ \n
+comment2.params=
+comment2.target=void\ battle()
+comment2.text=\n\ Start\ the\ "battle".\ As\ each\ creature\ is\ defeated,\ we\ add\ +1\ to\ \n\ the\ count\ of\ fallen\ for\ that\ army.\n\ \n
+numComments=3
