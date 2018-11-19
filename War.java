@@ -47,6 +47,7 @@ public class War
         int goodDead=0;
         int evilDead=0;
         //a few test cases
+        /*
         for(Creature here: good){
         System.out.println(here);
         int dmg = here.damage();
@@ -57,8 +58,8 @@ public class War
         int dmg = there.damage();
         System.out.println(dmg);
     }
+    */
         for(Creature loop: evil){
-            //lazy way to defend against index out of bounds errors
             if(g==good.size()||e==evil.size())
             break;
         while(good.get(g).isAlive()&& evil.get(e).isAlive()){
